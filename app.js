@@ -11,6 +11,7 @@ function calResult(number1, operator, number2) {
       const addResult = calculator.add(number1, number2);
       console.log("Addition:", addResult);
       break;
+
     case "subtract":
       const subtractResult = calculator.subtract(number1, number2);
       console.log("Subtraction:", subtractResult);

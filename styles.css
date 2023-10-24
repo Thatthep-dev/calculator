@@ -3,4 +3,53 @@
   padding: 0;
   box-sizing: border-box;
   font-family: sans-serif;
+  border: 0.5px solid red;
+}
+
+body {
+  width: 100%;
+}
+
+#header {
+  display: flex;
+  justify-content: center;
+  padding: 1em 0em;
+}
+
+#calculator-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#monitor {
+  display: flex;
+  justify-content: end;
+  align-items: end;
+  width: 16em;
+  height: 4em;
+  background: #a3a3a3;
+}
+
+#monitor p {
+  margin-bottom: 5px;
+}
+
+#btnZone {
+  width: 16em;
+}
+
+#btnZone button {
+  padding: 1em;
+  margin: 1rem;
+}
+
+#btnList-1,
+#btnList-2,
+#btnList-3,
+#btnList-4 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
