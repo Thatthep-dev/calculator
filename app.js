@@ -30,3 +30,24 @@ function calResult(number1, operator, number2) {
 }
 
 calResult(16, "add", 4);
+
+// <-- GUI SECTION -->
+const numBtnAll = document.querySelectorAll("#numBtn");
+const oprBtnAll = document.querySelectorAll("#oprBtn");
+const resultBtn = document.querySelector("#resultBtn");
+
+numBtnAll.forEach((button) => {
+  button.addEventListener("click", () => {
+    console.log(`${button.textContent} got clicked`);
+  });
+});
+
+oprBtnAll.forEach((button) => {
+  button.addEventListener("click", () => {
+    console.log(`${button.textContent} got clicked`);
+  });
+});
+
+resultBtn.addEventListener("click", () => {
+  console.log(`${resultBtn.textContent} got clicked`);
+});
