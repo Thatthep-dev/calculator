@@ -10,15 +10,21 @@ function calResult(number1, operator, number2) {
     case "add":
       const addResult = calculator.add(number1, number2);
       console.log("Addition:", addResult);
+      break;
     case "subtract":
       const subtractResult = calculator.subtract(number1, number2);
       console.log("Subtraction:", subtractResult);
+      break;
+
     case "multiply":
       const multiplyResult = calculator.multiply(number1, number2);
       console.log("Multiplication:", multiplyResult);
+      break;
+
     case "divide":
       const divideResult = calculator.divide(number1, number2);
       console.log("Division:", divideResult);
+      break;
   }
 }
 
